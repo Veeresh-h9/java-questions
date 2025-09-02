@@ -4,7 +4,7 @@
 
 This repository contains a collection of simple Java programming questions and examples, designed to help beginners practice and strengthen their understanding of Java fundamentals.
 
-# 📌 Topics Covered
+## 📌 Topics Covered
 
 - Variables and Data Types
 - Operators and Expressions
