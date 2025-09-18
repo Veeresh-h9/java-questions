@@ -1,4 +1,5 @@
 package dsa;
+import java.util.Scanner;
 
 public class palindrome_string {
 	public static String rev(StringBuilder sb){
@@ -15,7 +16,9 @@ public class palindrome_string {
 	
 
 	public static void main(String[] args) {
-		String st=("madam");
+		Scanner sc =new Scanner(System.in);
+		System.out.print("Enter the string to check palindrome:");
+		String st= sc.next();
 		String reverse=rev(new StringBuilder(st));
 		System.out.println(reverse);
 		
